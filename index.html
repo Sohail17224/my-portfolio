@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101113" />
+    <meta name="description" content="Sohail is an AI & Data Science student building thoughtful projects with Python and the web." />
+    <title>Sohail — AI & Data Science Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="wordmark" href="#top" aria-label="Sohail home"><span class="mark">S</span><span>SOHAIL<span class="muted">.DEV</span></span></a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a><a href="#education">Education</a><a href="#projects">Projects</a>
+        </nav>
+        <a class="availability" href="#contact"><span class="pulse"></span> Open to opportunities</a>
+      </header>
+
+      <main id="top">
+        <section class="hero section-wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> STUDENT · BUILDER · CURIOUS MIND</p>
+            <h1>Learning to build<br />things that <span class="accent">matter.</span></h1>
+            <p class="hero-intro">Hi, I’m <strong>Sohail</strong> — an AI & Data Science student exploring the places where code, ideas, and useful experiences meet.</p>
+            <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">→</span></a></div>
+            <div class="hero-meta"><span>BASED IN INDIA</span><span class="meta-dot">·</span><span>BUILDING MY NEXT CHAPTER</span></div>
+          </div>
+          <div class="hero-art" aria-label="Decorative abstract illustration">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+            <div class="orbit-core"><span>AI</span><span class="core-divider"></span><span>&lt;/&gt;</span></div>
+            <span class="orbit-label label-top">IDEAS → CODE</span><span class="orbit-label label-bottom">ALWAYS LEARNING</span>
+            <span class="spark spark-one">✳</span><span class="spark spark-two">+</span><span class="spark spark-three">·</span>
+          </div>
+          <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="intro-band" id="about"><div class="section-wrap intro-grid"><p class="eyebrow">01 / THE SHORT VERSION</p><div><h2>Curiosity is my<br /><span class="muted">favorite tool.</span></h2><p class="body-copy">I’m working toward a career in technology by strengthening my fundamentals, trying ideas in code, and learning from every project. I enjoy the process of turning a small concept into something real — then making it better.</p><div class="skill-list"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>AI & Data Science</span></div></div></div></section>
+
+        <section class="education section-wrap" id="education"><div class="section-heading"><div><p class="eyebrow">02 / MY JOURNEY</p><h2>Education</h2></div><p class="section-note">A foundation for what comes next.</p></div>
+          <div class="education-list">
+            <article class="education-row"><div class="year">2026</div><div class="edu-main"><h3>B.Tech · Artificial Intelligence & Data Science</h3><p>Annamacharya Institute of Technology and Sciences <span>·</span> Rajampet</p></div><div class="edu-score"><span>JNTUA</span><strong>7.77 <small>CGPA</small></strong></div><div class="row-arrow">↗</div></article>
+            <article class="education-row"><div class="year">2022</div><div class="edu-main"><h3>Intermediate · MPC</h3><p>J.C.N.R.M Junior College <span>·</span> Tadipatri</p></div><div class="edu-score"><span>STATE BOARD</span><strong>853 <small>marks</small></strong></div><div class="row-arrow">↗</div></article>
+            <article class="education-row"><div class="year">2020</div><div class="edu-main"><h3>Secondary School Certificate</h3><p>Narayana Concept and Techno School <span>·</span> Tadipatri</p></div><div class="edu-score"><span>STATE BOARD</span><strong>97<small>%</small></strong></div><div class="row-arrow">↗</div></article>
+          </div>
+        </section>
+
+        <section class="projects" id="projects"><div class="section-wrap"><div class="section-heading"><div><p class="eyebrow">03 / BUILT WHILE LEARNING</p><h2>Selected project</h2></div><p class="section-note">Small steps. Real practice.</p></div>
+          <article class="project-card"><div class="project-visual"><div class="terminal"><div class="terminal-bar"><span></span><span></span><span></span><i>guess_the_number.py</i></div><div class="terminal-code"><p><span class="code-muted">&gt;&gt;&gt;</span> <span class="code-purple">import</span> random</p><p><span class="code-muted">&gt;&gt;&gt;</span> secret = random.randint(<span class="code-orange">1, 100</span>)</p><p><span class="code-muted">&gt;&gt;&gt;</span> guess = <span class="code-green">int</span>(input(<span class="code-yellow">"Your guess: "</span>))</p><p class="code-output">Your guess: 42</p><p><span class="code-muted">&gt;&gt;&gt;</span> <span class="code-green">print</span>(<span class="code-yellow">"Keep trying!"</span>) <span class="cursor"></span></p></div></div><span class="visual-caption">FIRST BUILD / PYTHON</span></div><div class="project-info"><p class="eyebrow">CONSOLE GAME · 01</p><h3>Guess the Number</h3><p>A small command-line game that turns a random number into a challenge. A fun way to practice Python, user input, and the logic behind a simple guessing loop.</p><div class="tag-list"><span>Python</span><span>Console</span><span>Logic</span></div><a class="project-link" href="https://github.com/Sohail17224/my-portfolio" target="_blank" rel="noreferrer">View my GitHub <span>↗</span></a></div></article>
+        </div></section>
+
+        <section class="contact section-wrap" id="contact"><p class="eyebrow">04 / SAY HELLO</p><div class="contact-row"><h2>Good things start<br />with a <span class="accent">conversation.</span></h2><div class="contact-aside"><p>I’m growing my skills and looking forward to new opportunities. Find me on GitHub and say hello.</p><a class="button button-primary" href="https://github.com/Sohail17224" target="_blank" rel="noreferrer">Let’s connect <span aria-hidden="true">↗</span></a></div></div></section>
+      </main>
+      <footer class="footer section-wrap"><a class="wordmark" href="#top"><span class="mark">S</span><span>SOHAIL<span class="muted">.DEV</span></span></a><span>DESIGNED & BUILT WITH CURIOSITY</span><a href="https://github.com/Sohail17224" target="_blank" rel="noreferrer">GITHUB ↗</a><span>© <span id="year">2026</span> SOHAIL</span></footer>
+    </div>
+  </body>
+</html>
